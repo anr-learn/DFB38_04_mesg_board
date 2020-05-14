@@ -1,0 +1,11 @@
+{!-- DFB38_04_mesg_board/templates/home.html --}
+
+<h1>Message board home page </h1>
+
+<ul>
+  {% for mbPost in all_mbposts_list %}
+    <li>{{ mbPost.mbPostText }}</li>
+  {% endfor %}
+</ul>
+
+<!-- ### end ### -->
